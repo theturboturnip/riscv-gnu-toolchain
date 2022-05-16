@@ -6,10 +6,6 @@
 	path = riscv-gcc
 	url = ../riscv-gcc.git
 	branch = riscv-gcc-10.1-rvv-dev
-[submodule "riscv-glibc"]
-	path = riscv-glibc
-	url = ../riscv-glibc.git
-	branch = riscv-glibc-2.29
 [submodule "riscv-dejagnu"]
 	path = riscv-dejagnu
 	url = ../riscv-dejagnu.git
@@ -26,3 +22,7 @@
 	path = qemu
 	url = ../../sifive/qemu.git
 	branch = v5.2.0-rvv-rvb-zfh
+[submodule "riscv-glibc"]
+	path = riscv-glibc
+	url = https://sourceware.org/git/glibc.git
+    branch = release/2.29/master
